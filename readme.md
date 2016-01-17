@@ -1,5 +1,3 @@
-# Laravel Homestead
+# Laravel Homestead PHP56
 
-The official Laravel local development environment.
-
-Official documentation [is located here](http://laravel.com/docs/homestead).
+* Forked from https://github.com/laravel/homestead
