@@ -6,7 +6,7 @@ This is meant to run along side of your normal Homestead box (which may be on ph
 
 For more information on how to setup homestead official documentation [is located here](https://laravel.com/docs/5.2/homestead).
 
-# Copy Sites From Orginal Homestead
+# Copy Sites From Original Homestead
 
 ```git clone https://github.com/gjrdiesel/homestead.git Homestead56```
 
