@@ -13,3 +13,7 @@ config='/etc/php5/fpm/php.ini'
 sudo sed -i 's/memory_limit = .*/memory_limit = 512m/' $config
 sudo sed -i 's/; max_input_vars = .*/max_input_vars = 6000/' $config
 
+#You don't really need Ruby for dev, but it's a longer story than a comment can allow
+#it doesn't really matter the version since it's not very Ruby intense
+sudo apt-get install ruby
+sudo gem install bundler
