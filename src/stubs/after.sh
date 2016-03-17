@@ -17,3 +17,6 @@ sudo sed -i 's/; max_input_vars = .*/max_input_vars = 6000/' $config
 #it doesn't really matter the version since it's not very Ruby intense
 sudo apt-get install ruby
 sudo gem install bundler
+
+#Homestead has a redis server, but it expects you to use Laravel's Redis clien (I think?)
+sudo apt-get install php5-redis
